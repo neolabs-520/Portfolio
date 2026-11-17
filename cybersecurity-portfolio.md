@@ -173,12 +173,10 @@ Supporting services include a local Prometheus/Grafana monitoring stack, an Olla
 
 ## Ways of working
 
-Good infrastructure work is mostly about managing limited resources well — whether that resource is disk I/O, a network boundary, or an AI assistant's context window.
-
-- **Treat context as a budget.** In long AI-assisted sessions I scope work into small tasks, compact or summarize before the context window saturates, and keep a rolling log of decisions so detail survives summarization. The same discipline applies to log retention and incident notes.
-- **Always have a fallback.** When a model or provider throttles, I switch to an equivalent model rather than blocking — and I keep a local option for offline work. This mirrors the redundant paths and services in the lab: no single dependency should stall the job.
-- **Verify, then execute.** I read, sanity-check, and test AI-suggested commands in a disposable environment before they touch a real host. Suggestions are inputs, not instructions.
-- **Write the recovery path.** For every dependency I keep a fallback and a documented procedure, so a single failure is an inconvenience instead of a crisis.
+- **Work in small, verifiable increments.** I scope tasks so each change is testable, summarize state before a working set gets unwieldy, and keep a decision log. In long AI-assisted sessions, that means compacting context before the window saturates.
+- **Stay unblocked.** When a tool, provider, or service fails, I switch to an equivalent instead of waiting, and keep a local fallback for offline work. No single dependency should stall the job — the same principle as redundant paths in the lab.
+- **Verify, then execute.** Commands — whether I write them, copy them, or get them from an AI assistant — are read, sanity-checked, and tested in a disposable environment before they touch a real host.
+- **Document the recovery path.** Every dependency gets a fallback and a written procedure, so a single failure is an inconvenience rather than a crisis. Rebuildability is a security property.
 
 ---
 

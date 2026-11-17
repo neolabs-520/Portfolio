@@ -52,10 +52,10 @@ Supporting software projects: **NeoLabs** (static site, Git/GitHub), **DippEdc**
 
 ## How I work
 
-- **Context is a budget.** I scope AI-assisted work into small tasks, compact before the context window saturates, and keep a rolling decision log so detail survives summarization.
-- **Always have a fallback.** When a model or provider throttles, I switch to an equivalent model rather than blocking, and keep a local option for offline work.
-- **Verify, then execute.** AI-suggested commands are read, sanity-checked, and tested in a disposable environment before they touch a real host.
-- **Write the recovery path.** Every dependency gets a fallback and a documented procedure.
+- **Work in small, verifiable increments.** I scope tasks so each change is testable, summarize state before a working set gets unwieldy, and keep a decision log. In long AI-assisted sessions, that means compacting context before the window saturates.
+- **Stay unblocked.** When a tool, provider, or service fails, I switch to an equivalent instead of waiting, and keep a local fallback for offline work.
+- **Verify, then execute.** Commands — written, copied, or AI-suggested — are read, sanity-checked, and tested in a disposable environment before they touch a real host.
+- **Document the recovery path.** Every dependency gets a fallback and a written procedure.
 
 ---
 

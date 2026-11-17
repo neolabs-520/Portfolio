@@ -1,0 +1,8 @@
+# Private working documents — do not publish
+homelab_documentation.md
+IT exploration.md
+project achievements.md
+small projects brainstorm.md
+*.private.md
+.env
+.env.*

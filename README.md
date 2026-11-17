@@ -14,6 +14,8 @@ I focus on the parts of the job that are hard to fake — deploying a SIEM from 
 
 **[Wazuh SIEM Troubleshooting Case Study](case-studies/wazuh-siem-troubleshooting.md)** ([PDF](case-studies/wazuh-siem-troubleshooting.pdf)) — a redacted walkthrough of vulnerability remediation and disaster recovery across a multi-host lab.
 
+**[Home Lab Architecture & Design Notes](labs/homelab-architecture.md)** — the shareable design summary: trust zones, storage tiering, virtualization, observability, and the trade-offs behind each decision.
+
 ---
 
 ## Featured work
@@ -39,11 +41,21 @@ Supporting software projects: **NeoLabs** (static site, Git/GitHub), **DippEdc**
 │   ├── wazuh-siem-troubleshooting.md   # redacted incident case study
 │   └── wazuh-siem-troubleshooting.pdf
 └── labs/
-    ├── wazuh-siem-deployment.md        # first-run SIEM deployment
-    ├── arch-linux-installation.md      # manual install + recovery
-    ├── arch-linux-install-blueprint.md # repeatable install procedure
-    └── arch-linux-sysadmin-lab.md      # full lab manual
+    ├── homelab-architecture.md          # sanitized design notes
+    ├── wazuh-siem-deployment.md         # first-run SIEM deployment
+    ├── arch-linux-installation.md       # manual install + recovery
+    ├── arch-linux-install-blueprint.md  # repeatable install procedure
+    └── arch-linux-sysadmin-lab.md       # full lab manual
 ```
+
+---
+
+## How I work
+
+- **Context is a budget.** I scope AI-assisted work into small tasks, compact before the context window saturates, and keep a rolling decision log so detail survives summarization.
+- **Always have a fallback.** When a model or provider throttles, I switch to an equivalent model rather than blocking, and keep a local option for offline work.
+- **Verify, then execute.** AI-suggested commands are read, sanity-checked, and tested in a disposable environment before they touch a real host.
+- **Write the recovery path.** Every dependency gets a fallback and a documented procedure.
 
 ---
 

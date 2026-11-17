@@ -144,6 +144,7 @@ Supporting services include a local Prometheus/Grafana monitoring stack, an Olla
 ## Detailed write-ups
 
 - [Wazuh SIEM troubleshooting case study](case-studies/wazuh-siem-troubleshooting.md) · [PDF](case-studies/wazuh-siem-troubleshooting.pdf)
+- [Home lab architecture and design notes](labs/homelab-architecture.md)
 - [Wazuh SIEM deployment on headless Ubuntu](labs/wazuh-siem-deployment.md)
 - [Arch Linux manual installation and desktop recovery](labs/arch-linux-installation.md)
 - [Arch Linux installation blueprint](labs/arch-linux-install-blueprint.md)
@@ -167,6 +168,17 @@ Supporting services include a local Prometheus/Grafana monitoring stack, an Olla
 - **Cisco Networking Academy — Cybersecurity Basics** (badge earned)  
   [Verify credential](https://www.credly.com/badges/ee5691bc-6ab4-44e9-900c-446141280158/public_url)
 - **freeCodeCamp — HTML course** (in progress), applied through personal web projects
+
+---
+
+## Ways of working
+
+Good infrastructure work is mostly about managing limited resources well — whether that resource is disk I/O, a network boundary, or an AI assistant's context window.
+
+- **Treat context as a budget.** In long AI-assisted sessions I scope work into small tasks, compact or summarize before the context window saturates, and keep a rolling log of decisions so detail survives summarization. The same discipline applies to log retention and incident notes.
+- **Always have a fallback.** When a model or provider throttles, I switch to an equivalent model rather than blocking — and I keep a local option for offline work. This mirrors the redundant paths and services in the lab: no single dependency should stall the job.
+- **Verify, then execute.** I read, sanity-check, and test AI-suggested commands in a disposable environment before they touch a real host. Suggestions are inputs, not instructions.
+- **Write the recovery path.** For every dependency I keep a fallback and a documented procedure, so a single failure is an inconvenience instead of a crisis.
 
 ---
 

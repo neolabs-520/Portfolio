@@ -1,0 +1,401 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cybersecurity &amp; Systems Engineering Portfolio</title>
+  <meta name="description" content="Hands-on cybersecurity and systems engineering portfolio: Wazuh SIEM, Linux administration, vulnerability remediation, and disaster recovery.">
+  <meta name="color-scheme" content="dark">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <nav class="nav" aria-label="Primary">
+      <a class="brand" href="#top">
+        <span class="brand-mark" aria-hidden="true">N</span>
+        <span>neolabs</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links">
+        Menu
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#lab">Lab</a></li>
+        <li><a href="#case-studies">Case studies</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero container" id="top">
+      <p class="eyebrow">Cybersecurity · Systems Engineering · Linux</p>
+      <h1>I build, harden, and <span class="gradient">recover</span> Linux infrastructure.</h1>
+      <p class="lead">
+        Hands-on security work in a segmented home lab — from first-boot SIEM deployment
+        to adversary simulation, vulnerability remediation, and disaster recovery.
+      </p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="case-studies/wazuh-siem-troubleshooting.pdf">
+          Read the case study
+        </a>
+        <a class="btn btn-secondary" href="https://github.com/neolabs-520">
+          View GitHub
+        </a>
+      </div>
+      <p class="hero-meta">All hostnames, IPs, usernames, and tokens are redacted.</p>
+
+      <div class="stats" aria-label="Portfolio highlights">
+        <div class="stat">
+          <div class="stat-value">7</div>
+          <div class="stat-label">Detailed case studies</div>
+        </div>
+        <div class="stat">
+          <div class="stat-value">9.8</div>
+          <div class="stat-label">Critical CVE remediated</div>
+        </div>
+        <div class="stat">
+          <div class="stat-value">327 → 288</div>
+          <div class="stat-label">Tracked vulnerabilities</div>
+        </div>
+        <div class="stat">
+          <div class="stat-value">0</div>
+          <div class="stat-label">Data lost in recovery</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="container about-grid">
+        <div class="prose">
+          <p class="section-kicker">01 — About</p>
+          <h2>Hands-on, security-first, and comfortable in the logs.</h2>
+          <p>
+            I am a systems and security engineer focused on building, hardening, and operating
+            resilient Linux infrastructure. My work is self-directed and lab-based: I research,
+            deploy, and troubleshoot enterprise-grade technologies under real constraints —
+            segmented networks, centralized logging, zero-trust access, and full lifecycle
+            ownership from first boot to recovery.
+          </p>
+          <p>
+            I care about the parts of the job that are hard to fake: proving a SIEM actually
+            detects an adversary, recovering a corrupted cluster, and making an endpoint
+            patchable again when the package manager is broken.
+          </p>
+        </div>
+        <div class="about-cards">
+          <div class="mini-card">
+            <h3>Security-first mindset</h3>
+            <p>Early offensive and defensive exposure as a technical understudy to a CEH-certified professional.</p>
+          </div>
+          <div class="mini-card">
+            <h3>Disciplined persistence</h3>
+            <p>Rigorous habits around log analysis, syntax validation, and command-line diagnostics.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="section-kicker">02 — Capabilities</p>
+            <h2>What I work with</h2>
+          </div>
+          <p>Tools and domains exercised in the lab, not just listed on a résumé.</p>
+        </div>
+        <div class="grid grid-3">
+          <article class="card skill">
+            <h3>Linux systems administration</h3>
+            <p>Ubuntu Server (headless), Arch Linux manual installs, kernel and package management, systemd services.</p>
+          </article>
+          <article class="card skill">
+            <h3>SIEM &amp; observability</h3>
+            <p>Wazuh + OpenSearch deployment, agent enrollment, alert triage, MITRE ATT&amp;CK mapping, Prometheus + Grafana.</p>
+          </article>
+          <article class="card skill">
+            <h3>Network security</h3>
+            <p>Segmentation, route metrics, Tailscale ZTNA over WireGuard, Nmap reconnaissance, attack-surface reduction.</p>
+          </article>
+          <article class="card skill">
+            <h3>Vulnerability management</h3>
+            <p>CVE triage, Ubuntu Pro/ESM patching, forced package upgrades, documented risk acceptance.</p>
+          </article>
+          <article class="card skill">
+            <h3>Virtualization</h3>
+            <p>VirtualBox, KVM/QEMU with libvirt, Proxmox VE, VM provisioning and recovery.</p>
+          </article>
+          <article class="card skill">
+            <h3>Scripting &amp; tooling</h3>
+            <p>Bash, Python, Git/GitHub, Streamlit, QML/Qt Quick.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="lab">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="section-kicker">03 — Architecture</p>
+            <h2>The lab</h2>
+          </div>
+          <p>A deliberately segmented environment built on repurposed hardware and virtual machines.</p>
+        </div>
+        <figure class="terminal">
+          <div class="terminal-bar" aria-hidden="true">
+            <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+            <span class="terminal-title">lab-topology.txt</span>
+          </div>
+          <pre aria-label="Lab topology diagram">                    [ Out-of-band attack node ]
+                    Raspberry Pi · Kali Linux
+                              │
+                              ▼ Nmap recon / synthetic traffic
+        ┌─────────────────────┴─────────────────────┐
+        │       Tailscale zero-trust overlay        │
+        │  WireGuard mesh · admin laptop · phone    │
+        └─────────────────────┬─────────────────────┘
+                              │
+                    [ Wazuh Manager ]
+                    Ubuntu Server 24.04 LTS
+                    Wazuh · OpenSearch · Dashboard
+                              │
+                    [ Living-room endpoint ]
+                    Ubuntu 22.04 LTS · Wazuh agent
+
+        [ Isolated guest / IoT zone ] — segmented,
+        no route to the SIEM or the admin plane</pre>
+          <figcaption>
+            Administrative access runs over a Tailscale mesh. The SIEM has no path from
+            untrusted local devices.
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section id="case-studies">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="section-kicker">04 — Work</p>
+            <h2>Case studies</h2>
+          </div>
+          <p>Each entry follows the same structure: the challenge, what I did, and the result.</p>
+        </div>
+
+        <div class="grid grid-2 cases">
+          <article class="card case">
+            <div class="case-head">
+              <span class="case-num">01</span>
+              <h3>SIEM deployment and first-run validation</h3>
+            </div>
+            <p class="case-result"><strong>Result:</strong> deployment completed on the first attempt, with endpoint log ingestion verified end to end.</p>
+            <details>
+              <summary>Challenge &amp; action</summary>
+              <p><strong>Challenge:</strong> stand up centralized monitoring for a multi-host lab on headless Linux, as a first-time Wazuh deployment.</p>
+              <p><strong>Action:</strong> deployed the Wazuh/OpenSearch stack with the unattended installer, built post-deployment checks, and corrected a hostname drift that was blocking ingestion.</p>
+            </details>
+            <ul class="tags"><li>Wazuh</li><li>OpenSearch</li><li>Ubuntu Server</li><li>Validation</li></ul>
+          </article>
+
+          <article class="card case">
+            <div class="case-head">
+              <span class="case-num">02</span>
+              <h3>Adversary simulation and detection validation</h3>
+            </div>
+            <p class="case-result"><strong>Result:</strong> alerts fired in real time and mapped to MITRE ATT&amp;CK TA0043 / T1595.</p>
+            <details>
+              <summary>Challenge &amp; action</summary>
+              <p><strong>Challenge:</strong> prove the SIEM was detecting real activity, not just collecting logs.</p>
+              <p><strong>Action:</strong> stood up an out-of-band Kali Linux node, ran Nmap SYN stealth scans and OS fingerprinting, and traced telemetry through the pipeline.</p>
+            </details>
+            <ul class="tags"><li>Nmap</li><li>Kali Linux</li><li>MITRE ATT&amp;CK</li><li>Detection</li></ul>
+          </article>
+
+          <article class="card case">
+            <div class="case-head">
+              <span class="case-num">03</span>
+              <h3>Zero-trust remote administration</h3>
+            </div>
+            <p class="case-result"><strong>Result:</strong> WAN-facing SSH removed; admin access requires a pre-authenticated Tailscale node, including behind CGNAT.</p>
+            <details>
+              <summary>Challenge &amp; action</summary>
+              <p><strong>Challenge:</strong> administer the lab remotely without exposing management ports to the internet.</p>
+              <p><strong>Action:</strong> overlaid Tailscale across administrative assets and moved to Tailscale SSH with node-level authorization and WireGuard encryption.</p>
+            </details>
+            <ul class="tags"><li>Tailscale</li><li>WireGuard</li><li>ZTNA</li><li>Access control</li></ul>
+          </article>
+
+          <article class="card case">
+            <div class="case-head">
+              <span class="case-num">04</span>
+              <h3>Network segmentation and perimeter isolation</h3>
+            </div>
+            <p class="case-result"><strong>Result:</strong> no route from guest/IoT devices to the SIEM; lateral-movement surface reduced by construction.</p>
+            <details>
+              <summary>Challenge &amp; action</summary>
+              <p><strong>Challenge:</strong> isolate household IoT and guest devices from the SIEM and admin plane.</p>
+              <p><strong>Action:</strong> segmented untrusted traffic, ran the client LAN on a separate WLAN with a high route metric and no internet path, and mapped the design to HIPAA and DORA principles.</p>
+            </details>
+            <ul class="tags"><li>Segmentation</li><li>Routing</li><li>Risk</li><li>Compliance</li></ul>
+          </article>
+
+          <article class="card case">
+            <div class="case-head">
+              <span class="case-num">05</span>
+              <h3>SIEM database recovery after ungraceful shutdown</h3>
+            </div>
+            <p class="case-result"><strong>Result:</strong> cluster communication and log ingestion restored with no data loss.</p>
+            <details>
+              <summary>Challenge &amp; action</summary>
+              <p><strong>Challenge:</strong> a hypervisor abort corrupted OpenSearch shards; the dashboard returned Axios token errors and the indexer rejected registration on port 9200.</p>
+              <p><strong>Action:</strong> performed RCA, cleared stale locks, fixed a hostname typo, and started the indexer, manager, and dashboard in order.</p>
+            </details>
+            <ul class="tags"><li>OpenSearch</li><li>RCA</li><li>systemd</li><li>Recovery</li></ul>
+          </article>
+
+          <article class="card case">
+            <div class="case-head">
+              <span class="case-num">06</span>
+              <h3>Vulnerability lifecycle management</h3>
+            </div>
+            <p class="case-result"><strong>Result:</strong> critical attack vector remediated; tracked vulnerabilities reduced from 327 to 288, with the accepted risk documented.</p>
+            <details>
+              <summary>Challenge &amp; action</summary>
+              <p><strong>Challenge:</strong> 327 tracked vulnerabilities, including CVE-2023-51714 (CVSS 9.8), held back from standard <code>apt</code> upgrades.</p>
+              <p><strong>Action:</strong> enrolled in Ubuntu Pro/ESM, ran a targeted upgrade of the held packages, and evaluated CVE-2021-3773 as an accepted risk under strict network isolation.</p>
+            </details>
+            <ul class="tags"><li>CVE</li><li>Ubuntu Pro</li><li>ESM</li><li>Risk</li></ul>
+          </article>
+
+          <article class="card case">
+            <div class="case-head">
+              <span class="case-num">07</span>
+              <h3>Low-level Linux kernel and dependency recovery</h3>
+            </div>
+            <p class="case-result"><strong>Result:</strong> package database repaired and the host returned to a managed, patchable state.</p>
+            <details>
+              <summary>Challenge &amp; action</summary>
+              <p><strong>Challenge:</strong> <code>dpkg</code> error 1 after the third-party <code>rtl8852bu</code> Wi-Fi driver failed to compile against kernel 6.8.0-147.</p>
+              <p><strong>Action:</strong> force-removed the broken headers, repaired dependencies, and reattached the host to Ubuntu Pro.</p>
+            </details>
+            <ul class="tags"><li>dpkg</li><li>Kernel</li><li>Dependencies</li><li>Recovery</li></ul>
+          </article>
+
+          <article class="card case case-cta">
+            <div class="case-head">
+              <span class="case-num">→</span>
+              <h3>More detail on GitHub</h3>
+            </div>
+            <p class="case-result">The full portfolio includes the complete write-ups, lab architecture, and supporting software projects.</p>
+            <p><a class="link-arrow" href="https://github.com/neolabs-520/Portfolio/blob/main/cybersecurity-portfolio.md">Read the full portfolio →</a></p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="section-kicker">05 — Software</p>
+            <h2>Supporting projects</h2>
+          </div>
+          <p>Application work that built the habits used in the lab.</p>
+        </div>
+        <div class="grid grid-3">
+          <article class="card project">
+            <h3>NeoLabs landing site</h3>
+            <p>Static website built and maintained with Git/GitHub. Demonstrates web fundamentals and a publishing workflow.</p>
+            <ul class="tags"><li>HTML</li><li>Git</li><li>GitHub</li></ul>
+            <p class="project-link"><a class="link-arrow" href="https://github.com/neolabs-520/NeoLabs">View repository →</a></p>
+          </article>
+          <article class="card project">
+            <h3>DippEdc</h3>
+            <p>An Omarchy bar widget and everyday-carry checklist built with QML and JavaScript, with persistent state, keyboard workflows, localization, and model tests.</p>
+            <ul class="tags"><li>QML</li><li>JavaScript</li><li>Desktop</li><li>Testing</li></ul>
+          </article>
+          <article class="card project">
+            <h3>The Rotten Meme Store</h3>
+            <p>A modular Python/Streamlit image-editing app with separate layout, theme, filter, and watermarking modules.</p>
+            <ul class="tags"><li>Python</li><li>Streamlit</li><li>Modular design</li></ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="credentials">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="section-kicker">06 — Credentials</p>
+            <h2>Training</h2>
+          </div>
+        </div>
+        <div class="grid grid-2">
+          <article class="card cred">
+            <div>
+              <h3>Cisco Networking Academy — Cybersecurity Basics</h3>
+              <p>Badge earned. <a class="link-arrow" href="https://www.credly.com/badges/ee5691bc-6ab4-44e9-900c-446141280158/public_url">Verify credential →</a></p>
+            </div>
+          </article>
+          <article class="card cred">
+            <div>
+              <h3>freeCodeCamp — HTML course</h3>
+              <p>In progress, applied through personal web projects.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <div class="contact-panel">
+          <div>
+            <p class="section-kicker">07 — Contact</p>
+            <h2>Let’s talk.</h2>
+            <p class="contact-copy">Open to roles in SOC analysis, systems administration, and security engineering. Email available on request.</p>
+          </div>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="https://github.com/neolabs-520">GitHub</a>
+            <a class="btn btn-secondary" href="https://github.com/neolabs-520/Portfolio">Portfolio repo</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <span>Cybersecurity &amp; Systems Engineering Portfolio</span>
+      <span>Redacted for public sharing · Updated November 2026</span>
+    </div>
+  </footer>
+
+  <script>
+    const toggle = document.querySelector('.nav-toggle');
+    const links = document.querySelector('#nav-links');
+
+    if (toggle && links) {
+      toggle.addEventListener('click', () => {
+        const open = links.classList.toggle('open');
+        toggle.setAttribute('aria-expanded', String(open));
+      });
+
+      links.addEventListener('click', (event) => {
+        if (event.target.tagName === 'A') {
+          links.classList.remove('open');
+          toggle.setAttribute('aria-expanded', 'false');
+        }
+      });
+    }
+  </script>
+</body>
+</html>

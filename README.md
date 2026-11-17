@@ -2,6 +2,8 @@
 
 Hands-on systems and security work: building, hardening, and operating Linux infrastructure in a deliberately segmented home lab.
 
+**[View the live portfolio →](https://neolabs-520.github.io/Portfolio/)**
+
 I focus on the parts of the job that are hard to fake — deploying a SIEM from scratch, proving it detects an actual adversary, recovering a corrupted cluster, and making an endpoint patchable again when the package manager is broken.
 
 ---

@@ -2,6 +2,8 @@
 
 **Jeremy Raymond** · Tucson, Arizona, United States · [j.raymond.520.pro@gmail.com](mailto:j.raymond.520.pro@gmail.com) · [LinkedIn](https://www.linkedin.com/in/jeremy-raymond-740008444) · [GitHub](https://github.com/neolabs-520)
 
+**[One-page resume (PDF)](Jeremy_Raymond_Resume.pdf)** · **[Live portfolio](https://neolabs-520.github.io/Portfolio/)**
+
 ## Profile
 
 I am a hands-on systems and security engineer focused on building, hardening, and operating resilient Linux infrastructure. My work is self-directed and lab-based: I research, deploy, and troubleshoot enterprise-grade technologies under real constraints — segmented networks, centralized logging, zero-trust remote access, and full lifecycle ownership from first boot to disaster recovery.

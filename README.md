@@ -4,7 +4,7 @@
 
 Hands-on systems and security work: building, hardening, and operating Linux infrastructure in a deliberately segmented home lab.
 
-**[View the live portfolio →](https://neolabs-520.github.io/Portfolio/)**
+**[View the live portfolio →](https://neolabs-520.github.io/Portfolio/)** · **[Download resume (PDF)](Jeremy_Raymond_Resume.pdf)**
 
 I focus on the parts of the job that are hard to fake — deploying a SIEM from scratch, proving it detects an actual adversary, recovering a corrupted cluster, and making an endpoint patchable again when the package manager is broken.
 
@@ -13,6 +13,8 @@ I focus on the parts of the job that are hard to fake — deploying a SIEM from 
 ## Start here
 
 **[Cybersecurity & Systems Engineering Portfolio](cybersecurity-portfolio.md)** — profile, core competencies, lab architecture, and seven detailed case studies.
+
+**[Resume](resume.md)** ([PDF](Jeremy_Raymond_Resume.pdf)) — one-page resume: technical projects first, then experience.
 
 **[Wazuh SIEM Troubleshooting Case Study](case-studies/wazuh-siem-troubleshooting.md)** ([PDF](case-studies/wazuh-siem-troubleshooting.pdf)) — a redacted walkthrough of vulnerability remediation and disaster recovery across a multi-host lab.
 
@@ -40,6 +42,8 @@ Supporting software projects: **NeoLabs** (static site, Git/GitHub), **DippEdc**
 ```text
 .
 ├── cybersecurity-portfolio.md          # main portfolio document
+├── resume.md                            # resume source (one page)
+├── Jeremy_Raymond_Resume.pdf            # resume PDF (US Letter)
 ├── case-studies/
 │   ├── wazuh-siem-troubleshooting.md   # redacted incident case study
 │   └── wazuh-siem-troubleshooting.pdf

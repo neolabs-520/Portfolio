@@ -29,6 +29,7 @@ I focus on the parts of the job that are hard to fake — deploying a SIEM from 
 | **Zero-trust remote administration** | Replaced WAN-facing SSH with Tailscale SSH over an encrypted WireGuard mesh, with node-level authorization. |
 | **Network segmentation** | Isolated guest/IoT traffic from the SIEM and admin plane using separate WLAN interfaces, route metrics, and a zero-trust overlay. |
 | **Arch Linux manual install** | Installed Arch from the CLI, recovered a 100% full root filesystem, and stabilized GNOME by forcing X11 over a problematic Wayland/VMSVGA combination. |
+| **The Twisted Gem (small business)** | Co-founded a wire-wrapping jewelry pop-up vending business; 7+ successful shows and a major upcoming show. Handles sales, inventory, and show logistics. |
 
 Supporting software projects: **NeoLabs** (static site, Git/GitHub), **DippEdc** (QML/JavaScript desktop widget with tests and persistence), and **The Rotten Meme Store** (modular Python/Streamlit app).
 

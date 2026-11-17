@@ -165,6 +165,12 @@ Supporting services include a local Prometheus/Grafana monitoring stack, an Olla
 
 ---
 
+## Beyond the lab
+
+**The Twisted Gem — Co-Partner (2024–present).** Co-founded a wire-wrapping jewelry pop-up vending business; 7+ successful shows completed, with a major show upcoming. Handles sales, cash, inventory, booth setup, and show logistics. Live site: [thetwistedgem-520.github.io/TheTwistedGem](https://thetwistedgem-520.github.io/TheTwistedGem/)
+
+---
+
 ## Certifications & training
 
 - **Cisco Networking Academy — Cybersecurity Basics** (badge earned)  

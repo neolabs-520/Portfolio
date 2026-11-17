@@ -1,4 +1,6 @@
-# Cybersecurity & Systems Engineering Portfolio
+# Jeremy Raymond — Cybersecurity & Systems Engineering Portfolio
+
+**Jeremy Raymond** · Tucson, Arizona, United States · [j.raymond.520.pro@gmail.com](mailto:j.raymond.520.pro@gmail.com) · [LinkedIn](https://www.linkedin.com/in/jeremy-raymond-740008444) · [GitHub](https://github.com/neolabs-520)
 
 Hands-on systems and security work: building, hardening, and operating Linux infrastructure in a deliberately segmented home lab.
 
@@ -68,7 +70,9 @@ Supporting software projects: **NeoLabs** (static site, Git/GitHub), **DippEdc**
 
 ## Contact
 
+- **LinkedIn:** [jeremy-raymond-740008444](https://www.linkedin.com/in/jeremy-raymond-740008444)
+- **Email:** j.raymond.520.pro@gmail.com
 - **GitHub:** [neolabs-520](https://github.com/neolabs-520) — open an issue or reach out there
-- **LinkedIn:** *(to add)*
+- **Location:** Tucson, Arizona, United States
 
 All hostnames, IP addresses, usernames, and tokens in these write-ups are redacted or generalized.

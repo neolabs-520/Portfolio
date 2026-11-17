@@ -1,4 +1,6 @@
-# Cybersecurity & Systems Engineering Portfolio
+# Jeremy Raymond — Cybersecurity & Systems Engineering Portfolio
+
+**Jeremy Raymond** · Tucson, Arizona, United States · [j.raymond.520.pro@gmail.com](mailto:j.raymond.520.pro@gmail.com) · [LinkedIn](https://www.linkedin.com/in/jeremy-raymond-740008444) · [GitHub](https://github.com/neolabs-520)
 
 ## Profile
 
@@ -190,7 +192,8 @@ Supporting services include a local Prometheus/Grafana monitoring stack, an Olla
 
 ## Contact
 
+- **LinkedIn:** https://www.linkedin.com/in/jeremy-raymond-740008444
+- **Email:** j.raymond.520.pro@gmail.com
 - **GitHub:** https://github.com/neolabs-520
-- **LinkedIn:** *(to add)*
-- **Website / portfolio:** *(in progress)*
-- **Email:** available on request
+- **Location:** Tucson, Arizona, United States
+- **Website / portfolio:** https://neolabs-520.github.io/Portfolio/
